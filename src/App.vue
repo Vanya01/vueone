@@ -32,8 +32,7 @@ export default {
       weather: {}
     }
   },
-  // ${this.url_base}weather?=${this.query}&units=metric&appid=${this.api_key}
-  // https://api.openweathermap.org/data/2.5/weather?lat=40.712776&lon=-74.005974&appid=a8d9956ff10457c10b3d9d0356412c9b
+
   methods: {
     fetchWeather(e) {
       if (e.key == "Enter") {
