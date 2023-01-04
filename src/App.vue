@@ -32,6 +32,8 @@ export default {
       weather: {}
     }
   },
+//saved
+
 
   methods: {
     fetchWeather(e) {
